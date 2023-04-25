@@ -14,7 +14,7 @@ mkdir -p ~/.local/share/mc/skins
 cd ~/.local/share/mc/
 git clone git@github.com:spmarsden/synthwave-mc.git
 cd skins
-ln -s "../synthwave-mc/themes/* ./"
+ln -s ../synthwave-mc/themes/* ./
 ```
 
 The skin can now be selected under Options > Appearance > synthwave84.
