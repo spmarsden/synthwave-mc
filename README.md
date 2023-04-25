@@ -19,9 +19,18 @@ ln -s ../synthwave-mc/themes/* ./
 
 The skin can now be selected under Options > Appearance > synthwave84.
 
+In older versions of Midnight Commander, Appearance may not appear in the
+options menu. If that's the case in ~/.config/mc/ini, add or modify the skin
+selection:
+
+```yaml
+[Midnight-Commander]
+skin=synthwave84
+```
+
 ## Thanks
 
 Many thanks to [Rob Owen](https://github.com/robb0wen) for the original theme,
-(and from whom I stole the banner from), and to
+(and from whom I stole the banner), and to
 [Unsplash](https://unsplash.com/photos/DxHR8K5Egjk) for the original city
 skyline.
